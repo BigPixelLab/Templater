@@ -6,7 +6,7 @@
     
     <heading> WELCOME </heading>
     <br/>
-    <p> This is an example if what this templater can do </p>
+    <p> This is an example of what this templater can do </p>
     <br/>
     <p for="i in range(count)"> 
         Try to change "count" in context #{i}
@@ -60,4 +60,4 @@ async def main():
 asyncio.run(main())
 ```
 
-To see how you can extend its functionality see `templater_for_aiogram`
+To see how you can extend its functionality check `templater_for_aiogram`
